@@ -1,0 +1,839 @@
+<!-- Home Banner Style V8 -->
+<section class="home-banner-style8 p0">
+  <div class="background-video">
+    <video
+      preload="metadata"
+      src="assets/front/images/showcase.mp4"
+      poster=""
+      autoplay=""
+      loop=""
+      muted="muted"
+      playsinline=""
+      controlslist="nodownload"
+      class="web-video"
+    ></video>
+  </div>
+  <div class="home-style8">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-lg-6 col-xl-6">
+          <div class="inner-banner-style8">
+            <h1 class="hero-title animate-up-2">
+              Invest & Grow In Real Estate With JustStake
+            </h1>
+            <p class="hero-text animate-up-3">
+              JustStake is the leading marketplace for real estate investments.
+              Join thousands of investors worldwide, gain access to fractional
+              ownership in high-growth properties, and build your wealth through
+              lucrative real estate deals.
+            </p>
+            <a
+              [routerLink]="'/login'"
+              class="ud-btn banner-btn fw600 btn-thm mt10 mt0-xs"
+              >Invest Now <i class="fal fa-arrow-right-long"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Our Partners -->
+<section class="our-category bgc-dark pb0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="main-title wow fadeInUp" data-wow-delay="300ms">
+          <h4 class="title text-white">
+            The World Leader in Real Estate Investing: JustStake
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <owl-carousel-o *ngIf="items.length" [options]="carouselOptions">
+          <ng-container *ngFor="let item of items">
+            <ng-template carouselSlide>
+              <div class="item">
+                <div class="iconbox-style1 dark-style">
+                  <span class="icon">
+                    <img
+                      [src]="
+                        '/assets/front/images/homepage-icons/' +
+                        item.split(' ').join('-') +
+                        '.svg'
+                      "
+                      style="width: 40px"
+                    />
+                  </span>
+                  <div class="iconbox-content">
+                    <h6 class="title">{{ item }}</h6>
+                  </div>
+                </div>
+              </div>
+            </ng-template>
+          </ng-container>
+        </owl-carousel-o>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Explore Cities -->
+<section class="explore-cities pb80 bgc-dark pb30-md">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-lg-5 wow fadeInUp" data-wow-delay="100ms">
+        <div class="main-title mb30">
+          <h2 class="title mb20 text-white">
+            High-Value Properties Delivering Long-Term Capital Growth
+          </h2>
+          <p class="text text-white">
+            JustStake connects you to prime residential and commercial
+            properties with high rental demand. Invest in these properties to
+            earn solid rental income and benefit from capital appreciation.
+          </p>
+          <div class="list-style1 stylewhite mt30">
+            <ul>
+              <li class="text-white">
+                <i class="far fa-check text-white bgc-thm fz15"></i>Prime
+                Properties
+              </li>
+              <li class="text-white">
+                <i class="far fa-check text-white bgc-thm fz15"></i>Invest in
+                Shares
+              </li>
+              <li class="text-white">
+                <i class="far fa-check text-white bgc-thm fz15"></i>Long-Term
+                Capital Growth
+              </li>
+              <li class="text-white">
+                <i class="far fa-check text-white bgc-thm fz15"></i>Higher
+                Rental Income
+              </li>
+              <li class="text-white">
+                <i class="far fa-check text-white bgc-thm fz15"></i>Effortless
+                Investment
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-lg-7 col-xl-6 offset-xl-1 wow fadeInUp"
+        data-wow-delay="300ms"
+      >
+        <div class="row">
+          <div class="col-sm-6 col-lg-6">
+            <a href="">
+              <div class="feature-style2 mb30">
+                <div class="feature-img">
+                  <img
+                    class="w-100"
+                    src="assets/front/images/dubai.webp"
+                    alt=""
+                  />
+                </div>
+                <div class="feature-content pt20 text-center">
+                  <h5 class="title mb-1 text-white">
+                    <span class="flag-ico">
+                      <svg
+                        id="fi_5921904"
+                        viewBox="0 0 512 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                        data-name="Layer 1"
+                      >
+                        <g fill-rule="evenodd">
+                          <path
+                            d="m149.73 488.957v-139.528h344.68c-37.327 95.177-129.997 162.571-238.41 162.571a255.038 255.038 0 0 1 -106.27-23.043z"
+                            fill="#282828"
+                          ></path>
+                          <path
+                            d="m149.73 23.043v465.914c-88.34-40.364-149.73-129.487-149.73-232.957s61.39-192.593 149.73-232.957z"
+                            fill="#f00"
+                          ></path>
+                          <path
+                            d="m495.922 166.546h-346.192v-143.503a255.038 255.038 0 0 1 106.27-23.043c109.915 0 203.639 69.278 239.922 166.546z"
+                            fill="#00732f"
+                          ></path>
+                          <path
+                            d="m149.73 166.546h346.192a256.9 256.9 0 0 1 -1.512 182.883h-344.68z"
+                            fill="#f5f5f5"
+                          ></path>
+                        </g>
+                      </svg>
+                    </span>
+                    United Arab Emirates
+                  </h5>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-6 col-lg-6">
+            <a href="">
+              <div class="feature-style2 mb30">
+                <div class="feature-img">
+                  <img
+                    class="w-100"
+                    src="assets/front/images/saudi.webp"
+                    alt=""
+                  />
+                </div>
+                <div class="feature-content pt20 text-center">
+                  <h5 class="title mb-1 text-white">
+                    <span class="flag-ico">
+                      <svg
+                        id="fi_13980429"
+                        enable-background="new 0 0 283.46 283.46"
+                        viewBox="0 0 283.46 283.46"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                      >
+                        <clipPath id="SVGID_2_">
+                          <path
+                            id="SVGID_1_"
+                            d="m141.732 6.214c74.849 0 135.518 60.674 135.518 135.525 0 74.838-60.669 135.519-135.518 135.519-74.85 0-135.524-60.681-135.524-135.519 0-74.851 60.675-135.525 135.524-135.525z"
+                          ></path>
+                        </clipPath>
+                        <g>
+                          <g>
+                            <g>
+                              <g clip-path="url(#SVGID_2_)">
+                                <g>
+                                  <path
+                                    d="m-61.476 6.237h406.549v271.032h-406.549z"
+                                    fill="#026c34"
+                                  ></path>
+                                  <g fill="#fff">
+                                    <path
+                                      d="m35.836 99.44s2.463-3.478 2.463-6.764c0-3.303-2.008-2.749-2.76-2.2-.753.572-2.247 2.042-1.471 2.941.753.893 1.576-.683 2.107-.683.525 0 .665.274.665 1.664 0 1.383-1.004 5.042-1.004 5.042z"
+                                    ></path>
+                                    <path
+                                      d="m29.918 100.1s.158 17.04 3.887 17.04c0 0 1.652 0 2.119-4.423.49-4.423 2.398-15.488 7.049-15.488s-2.329 8.952 1.36 16.79c0 0 1.342 2.906 3.863 2.906 0 0-.625-11.829-1.424-15.774-.788-3.968-.344-3.968-.344-3.968s-1.792-2.177-.636-4.138c1.173-1.961 1.745-2.726 2.836-1.016 1.051 1.722 4.885 7.149 1.383 9.011l1.447 15.348s3.671-2.317 2.784-6.577c-.881-4.278-2.749-10.598-.502-13.936 0 0 3.046 1.973 3.046 5.013 0 3.046-.239 15.156 5.882 15.156 6.093 0-1.494-13.58-1.494-16.02 0 0-.286-.671 1.173-2.212s1.634-2.124 2.749-.957c1.097 1.173 3.128 3.204 3.128 5.2s-1.71 1.149-1.71 1.149 2.061 6.536 2.061 10.901c0 4.371-2.533 7.913-7.219 7.913s-5.573-5.73-5.573-5.73-2.591 4.184-3.916 5.071l1.004 19.188s-.123 2.894-1.71 4.388c0 0-.351.141-.479-1.844-.146-1.938-1.973-19.585-1.973-19.585s-8.234 1.424-8.234-10.779c0 0 .093-2.019.31-4.4.239-2.364-.023-4.92-.788-3.035-.765 1.891-1.016 3.578-2.212 9.6-1.208 6-2.725 7.686-4.528 7.686-1.792 0-5.118-5.509-5.118-14.484.011-9.015 1.779-7.994 1.779-7.994z"
+                                    ></path>
+                                    <path
+                                      d="m59.862 91.136s.286 3.355 1.494 3.355c1.231 0 1.395-2.363 1.395-2.363s.479.438.479 1.978c0 1.535-1.144 2.142-1.769 2.142-.63 0-1.803-.695-1.803-1.436 0 0-.548 1.307-2.235 1.307-1.675 0-2.404-2.013-2.404-3.215 0-1.208.49-2.235.875-2.235.379 0 .561 1.745.561 2.101 0 .374.297 1.553 1.015 1.553s1.424-.631 2.392-3.187z"
+                                    ></path>
+                                    <path
+                                      d="m29.72 138.464s5.818-8.164 14.893-10.557c0 0 1.564-.642 1.564 1.003 0 1.675.216 1.617-1.926 2.247-2.112.649-7.732 3.036-14.531 7.307z"
+                                    ></path>
+                                    <path
+                                      d="m97.042 129.594c0-.753-.059-5.042-.788-5.089-.729-.029-2.597 1.453-2.247 1.826.344.391 1.576 5.877-1.29 5.877-2.883 0-3.694-7.015-3.694-7.015-1.593 4.47-3.636 7.569-5.795 7.569-2.142 0-2.714-2.772-2.714-3.443 0-.683.502-3.683-.659-3.683-1.173 0-3.548 2.614-3.548 2.614l-1.617-23.197c1.617 1.745 2.597.42 2.597-1.231 0-1.646-3.227-10.277-3.98-11.59-.753-1.278-2.247.397-3.501 2.282-1.278 1.891.152 3.659.152 3.659 0 2.649.327 6.775 1.267 14.939.957 8.176 1.756 17.303 1.756 17.303l-3.093 1.833s-1.984-6.741-7.3-6.741c-5.311 0-5.27 4.494-5.27 11.135 0 6.647 10.266 1.529 10.266 1.529 0 4.359-6.326 13.172-14.765 13.172-8.456 0-6.367-14.794-6.367-14.794-4.902 10.09-1.879 20.361 6.192 20.361 8.065 0 15.43-7.493 17.175-10.995 1.745-3.513 1.039-8.935 1.039-8.935l2.375-1.377s.625 8.048-.525 13.323c-1.132 5.24-11.911 12.582-20.875 12.582-8.952 0-9.997-8.381-9.997-10.901 0-2.545.589-5.463.589-7.354s-.467-2.754-.467-2.754c-2.556 3.385-2.475 11.392-2.475 11.392 0 14.869 7.219 15.383 11.654 15.383s11.508-.887 20.244-6.956c8.725-6.069 5.357-26.127 5.357-26.127l.653-.712s-.093 2.924 4.266 2.924c4.365 0 6.53-3.286 6.53-3.286 1.745 2.679 4.132 2.679 4.132 2.679 5.067.001 4.723-5.438 4.723-6.202zm-34.419 4.937c-2.119 0-2.463-3.886-.788-3.886 1.681 0 3.823 3.046 3.823 3.046s-.911.84-3.035.84z"
+                                    ></path>
+                                    <path
+                                      d="m33.735 146.524s.653 2.848-.443 5.836c-1.086 2.987-1.745 13.562 3.659 6.629 0 0 2.031 6.933-3.227 6.933-5.27 0-3.192-11.461-1.757-15.359 1.429-3.899 1.768-4.039 1.768-4.039z"
+                                    ></path>
+                                    <path
+                                      d="m87.208 144.306s-2.381 1.33-2.381-1.378c0-2.73 2.34-2.427 2.34-2.427s2.025.14 2.025 4.062-2.404 5.813-2.404 5.813 1.197-3.783.42-6.07z"
+                                    ></path>
+                                    <path
+                                      d="m99.003 94.824c0-.893-.31-3.741-2.521-3.741-2.223 0-4.435 2.119-4.435 5.311 0 3.187 1.564 3.916 1.564 3.916-4.289 6.851-19.287 15.336-9.57 11.141 9.716-4.22 11.986-9.489 11.986-9.489 3.321.158 1.424-2.498 1.424-2.498s1.552-3.764 1.552-4.64zm-3.636 2.679c-.917-.764-.666-1.628-.415-2.247.251-.648 1.459-1.29 1.459-.082.001 1.255-1.044 2.329-1.044 2.329z"
+                                    ></path>
+                                    <path
+                                      d="m96.528 114.152s-.251 4.984-4.389 4.984c-4.155 0-3.367-6.624.945-9.729 0 0 .788-.07-.128 1.611-.911 1.675-2.749 5.643-.193 5.643 2.569-.011 3.765-2.509 3.765-2.509z"
+                                    ></path>
+                                    <path
+                                      d="m122.562 94.445s-.887-.694-.029-1.768c.852-1.08 1.651-.957 2.462 1.015.829 1.961 1.518 6.227-.344 10.861 0-.012.671-7.05-2.089-10.108z"
+                                    ></path>
+                                    <path
+                                      d="m127.557 123.962s1.039 4.138 2.183 4.138c1.138 0 1.331-4.278 1.331-4.278s1.71 3.607 2.614 3.607c.922 0 .946-4.861.946-4.861s1.266 1.254 1.266 3.881c0 2.632-1.71 3.052-2.27 3.052-.572 0-2.066-1.22-2.066-1.22s-.502 2.247-2.153 2.247c-1.623 0-2.796-3.251-1.851-6.566z"
+                                    ></path>
+                                    <path
+                                      d="m172.02 92.426s.98-2.095 2.112-.66c1.132 1.413 2.393 4.325 2.393 7.505 0 3.204-2.008 4.687-2.008 4.687s.888-5.498-1.202-7.563c-2.065-2.084-2.136-2.289-1.295-3.969z"
+                                    ></path>
+                                    <path
+                                      d="m173 108.678s.7 2.416 1.447 2.416c.723 0 1.342-3.146 1.342-3.146s.712 2.772 1.599 2.772c.864 0 1.739-3.683 1.739-3.683s.643 1.045.643 3.396c0 2.34-1.308 2.58-1.67 2.58-.35 0-1.342-.023-2.007-1.348 0 0-.643 1.371-2.159 1.371-1.447.019-1.588-2.759-.934-4.358z"
+                                    ></path>
+                                    <path
+                                      d="m239.692 97.649s.957-2.095 2.101-.683c1.144 1.424 2.404 4.348 2.404 7.528 0 3.181-2.031 4.674-2.031 4.674s.888-5.497-1.167-7.575c-2.101-2.071-2.171-2.263-1.307-3.944z"
+                                    ></path>
+                                    <path
+                                      d="m148.396 161.417s3.292-2.895 5.008-2.895c1.692 0-.198 3.035-.198 3.922s-.397 2.777 2.334 1.447c2.742-1.331 5.24-2.334 5.719-2.171.467.21-3.957 5.182-7.972 5.182s-2.054-4.283-1.926-4.878c.14-.561.28-1.425-1.949-.386-2.253.992-1.016-.221-1.016-.221z"
+                                    ></path>
+                                    <path
+                                      d="m224.518 159.083s2.568-.21 2.568 1.237c0 1.458-2.463 3.197-.351 3.197 2.147 0 2.055 1.646.304 2.451-1.774.841-5.521 2.696-5.521.467 0-2.241 2.649-1.471 2.649-3.408s-1.961-.875-1.961-2.299c.002-1.412 2.312-1.645 2.312-1.645z"
+                                    ></path>
+                                    <path
+                                      d="m215.391 133.48s1.004-1.628 2.428-.011c1.424 1.575 2.008 3.414 2.008 5.351 0 1.914-1.494 3.268-1.879 3.198-.409-.069.046-1.692.046-2.993 0-1.302-1.995-2.941-2.673-3.467-.7-.514-.35-1.71.07-2.078z"
+                                    ></path>
+                                    <path
+                                      d="m218.123 124.873s1.459-1.114 1.459 1.687c0 2.807-2.813 2.043-8.369 6.227s-3.968 1.494-3.723 1.085c.268-.403 10.633-8.999 10.633-8.999z"
+                                    ></path>
+                                    <path
+                                      d="m207.828 116.09s1.728 2.451 2.767 4.668c1.074 2.2 2.206 2.895 2.253.158.046-2.749 0-6.717 0-6.717s-.07-1.687.957-1.687c1.003 0 1.05 1.342 1.728.613.653-.741.022-1.769-.164-2.416-.21-.642-.91-2.282-2.544-.776-1.646 1.494-1.494 3.228-1.284 5.27.21 2.031.479 5.498-.84 2.58-1.331-2.912-2.102-5.719-3.875-5.719-1.763 0-1.343 4.908-.211 4.908 1.143-.001 1.213-.882 1.213-.882z"
+                                    ></path>
+                                    <path
+                                      d="m158.738 141.971c-4.459.794-25.707.374-25.707.374 7.686-3.606 12.517-5.305 12.517-5.305l1.564.799.046-1.278s8.357-3.239 8.357-7.54c0-4.318-5.883-7.832-9.688-7.832-3.804 0-6.232 4.832-6.232 7.493 0 2.679 1.249 3.945 1.249 3.945s-13.276 4.552-14.986 5.836c-1.709 1.267-2.749 4.464-2.749 6.309 0 1.844 4.709 1.471 4.709 1.471 9.477 0 11.287 2.661 11.287 2.661-9.401 3.595-7.009 10.808-7.009 10.808-7.114-2.265-8.497-5.883-9.536-9.827-1.044-3.922-1.984-11.567-3.134-15.739-1.138-4.179-5.077-14.1-5.882-14.1-.811 0-3.128 4.418-2.183 7.167.94 2.754 6.215 20.011 6.215 20.011-5.311 10.178-12.909 15.757-17.846 15.757-4.938 0-4.185-4.529-4.185-4.529 9.828-5.146 14.199-12.792 14.199-17.507 0-4.768-2.247-9.892-2.247-9.892s1.564.898 1.564-.753c0-1.675-4.645-6.828-5.398-6.828-.765 0-2.906 3.647-2.906 5.264 0 1.611 1.803 2.089 1.803 2.089s3.945 5.305 3.945 9.723c0 4.412-10.05 11.087-10.05 11.087s1.039-7.329-.286-7.096c-1.331.233-4.126 10.282-4.126 10.282s-11.391 7.108-12.01 7.4c-.624.269-11.45 4.972-7.102 4.972 4.365 0 18.92-6.583 18.92-6.583.134 8.03 7.662 8.229 7.662 8.229 10.184 0 19.672-15.056 19.672-15.056 6.149 13.842 18.602 14.217 21.485 14.217 2.894 0 3.314-2.568 3.314-4.365 0-1.798-8.403-2.802-8.403-6.77 0-3.992 16.666-7.563 20.774-8.334 4.155-.747 4.272-1.983 4.763-3.303.467-1.319 2.078-4.05-2.38-3.257zm-13.749-14.694c.536 0 4.925 2.223 4.925 2.725s-4.995 1.482-4.995 1.482c-.818-2.287-.467-4.207.07-4.207z"
+                                    ></path>
+                                    <path
+                                      d="m103.304 96.406s-.595 6.011-.595 9.378c0 3.385 2.305 7.972 4.208 7.972 1.885 0 6.979-18.738 10.995-18.738s.823 4.791.823 14.292c0 9.483 5.953 6.157 6.612 5.883.665-.298 5.089-2.819 5.089-8.725 0-5.917-2.055-11.701-2.055-12.693s1.792-5.136 2.726-4.208c.934.934 2.591 6.647 2.591 10.627 0 3.992 1.512 14.175 6.227 14.175s1.423-10.756.887-12.512c-.537-1.786-2.848-6.238-1.973-7.353.898-1.109 1.996-2.784 2.369-3.513.397-.729 1.692.204 2.743 1.36 1.085 1.173 3.232 3.957 3.232 6.519 0 2.567-3.174-.66-3.174-.66s2.077 6.133 2.077 11.508c0 5.381-2.836 9.215-6.255 9.215-3.408 0-7.435-4.984-7.435-4.984s-3.385 7.149-10.335 7.149c-6.957 0-6.396-10.697-6.396-10.697s.572-5.783-.193-5.521c-.752.251-3 7.143-3.788 9.366-.799 2.247-1.593 4.604-3.828 4.604-2.247 0-7.015-5.509-7.015-12.465s2.463-9.979 2.463-9.979z"
+                                    ></path>
+                                    <path
+                                      d="m156.753 100.386 5.299 7.768-.853-9.122s-1.038-.846-1.038-2.27c0-1.412 1.05-4.698 2.497-4.698s5.603 10.23 5.603 12.529c0 2.294-2.089.607-2.089.607l.408 10.399s11.298 16.504 15.267 26.699c3.991 10.178 1.563 9.968.49 7.493-1.086-2.521-9.139-19.579-15.114-26.845 0 0 1.832 19.118 1.832 23.764s-1.412 13.959-3.549 13.959c-2.146 0 .888-6.372.759-10.201-.151-3.852-2.719-28.181-3.84-34.869l-11.566-16.101s-2.275.286-2.275-2.941c0-3.215-.724-6.297.747-6.297 1.47 0 10.247 8.165 10.247 9.594 0 1.413-2.825.532-2.825.532z"
+                                    ></path>
+                                    <path
+                                      d="m186.959 103.123s-.176 6.093 1.097 17.099c1.261 10.995 1.447 18.966 1.447 23.337 0 4.365 1.331 25.421-20.542 25.421 0 0-1.354.046-1.354-.49 0-.537 1.33-1.004 3.244-1.657 1.926-.654 16.504-5.112 15.29-22.457-1.214-17.326-3.222-44.719-4.179-45.606 0 0-.875-.467-.875-2.177 0-1.721 3.35-4.983 4.236-4.983.876 0 3.688 9.518 3.688 11.356.002 1.861-2.052.157-2.052.157z"
+                                    ></path>
+                                    <path
+                                      d="m197.545 104.518s3.7 32.891 4.938 41.073c1.236 8.146-3.269 12.138-4.086 12.138-.793 0 .188-2.801.188-7.26 0-4.458-4.365-33.532-5.299-41.229-.957-7.686-1.938-7.645-1.938-12.284 0-4.64 2.918-6.396 3.699-6.396.759 0 1.739 3.169 1.739 3.169s2.101 6.227 3.233 7.972c1.144 1.757 1.144 2.521 1.144 3.105-.011.552-2.276.85-3.618-.288z"
+                                    ></path>
+                                    <path
+                                      d="m195.176 146.15s-.188 15.594 4.505 15.594c0 0 1.284.816 4.879-7.354 3.618-8.146 5.322-9.664 7.026-9.664s5.089 6.77 8.45 6.77c3.373 0 4.365-5.217 4.365-8.987 0-3.834-1.81-28.479-1.81-28.479l-10.912-14.006s-.468-.467-.468-3.524c0-3.058-.443-5.031.7-5.031 1.156 0 2.849 2.556 5.008 4.406 2.147 1.856 3.034 2.516 3.034 3.589 0 1.062-1.599.391-1.599.391l3.571 5.275-.561-6.314s-1.003-1.383-1.003-2.842c0-1.447 1.75-5.031 2.824-5.031 1.097 0 4.481 9.425 4.481 11.257 0 1.85-1.471-.093-1.471-.093l.514 10.119 6.712 9.157s-2.767-17.379-2.767-24.896c0 0-.374-.345-.374-1.436 0-1.085 2.194-4.674 3.269-4.674 1.073 0 4.026 10.067 4.026 12.313 0 2.224-1.762.683-1.762.683l1.797 23.886s8.591 12.051 10.061 15.413c1.471 3.361 1.319 8.263.794 8.029s-4.657-8.45-10.224-15.039c0 0 1.599 13.568-1.39 15.693 0 0-.292-5.579-.292-8.428 0-2.847-1.354-11.303-1.354-11.303l-7.738-10.855s1.202 20.595 1.202 26.174c0 5.603-2.72 10.738-7.738 10.738-5.03 0-9.442-6.21-9.442-6.21s-1.728 1.167-5.252 8.346c-3.571 7.154-4.669 7.761-6.186 7.761-1.518 0-7.587-3.617-7.587-9.769-.043-6.174 2.712-11.659 2.712-11.659z"
+                                    ></path>
+                                    <path
+                                      d="m246.391 96.213s-.42-.251-.42-1.436c0-1.173 2.101-4.377 3.034-4.377.957 0 5.381 9.576 5.381 11.403 0 1.844-2.043-.274-2.043-.274s-.047 1.745 1.098 16.078c1.144 14.303 7.703 40.226-11.205 47.894-18.885 7.691 3.793-5.042 7.003-12.955 3.187-7.937 1.308-18.278.245-28.975-1.085-10.685-3.093-27.358-3.093-27.358z"
+                                    ></path>
+                                    <path
+                                      d="m220.643 204.251h-20.378l-.059-1.868s1.389-1.318 1.389-2.24c0-.934-1.33-3.408-2.287-3.408-.935 0-2.358 2.077-2.358 3.268 0 1.214 1.447 2.404 1.447 2.404v1.868l-141.453-.444c6.822 6.84 7.47 6.957 38.078 7.716 30.621.759 103.749-1.425 103.749-1.425v2.276s-1.471 1.132-1.471 2.334 1.249 3.233 2.346 3.233c1.109 0 1.763-2.404 1.763-2.404h7.225s-.128 1.471 1.646 1.471c1.763 0 1.833-1.669 1.833-1.669h7.715s1.12 1.739 2.895 1.739c1.762 0 4.015-.853 4.015-7.12-.026-6.221-6.095-5.731-6.095-5.731zm-1.447 9.291-7.119.094s-.49-1.308-1.821-1.308c-1.33 0-1.54 1.518-1.54 1.518l-6.957.105s-.35-1.086-1.307-1.669l-.117-2.253 19.118-.467c-.012-.012-1.027 2.393-.257 3.98z"
+                                    ></path>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                    </span>
+                    Saudi Arabia
+                  </h5>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="text-center">
+          <a
+            [routerLink]="'/login'"
+            class="ud-btn btn-thm-border fw600 mt10 mt0-xs w-100"
+            >Invest as little as $100 <i class="fal fa-arrow-right-long"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ==================== Start Portfolio ==================== -->
+
+<section
+  id="howitworks"
+  class="section-space-sm-top section-space-sm-bottom work-card"
+>
+  <div class="container">
+    <div class="sec-head mb80">
+      <div class="row">
+        <div class="col-lg-7 m-auto text-center">
+          <div class="mb10 text-center sub-title fw600 text-thm">
+            How It Works?
+          </div>
+          <h2 class="title mb20 text-center">
+            Build an income-generating real estate portfolio, easily!
+          </h2>
+          <p class="text m-auto text-center">
+            Sign up in minutes, explore global properties, generate passive
+            income, and diversify across different asset types and markets.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="cards">
+      <div class="card-item rounded-4">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="cont">
+              <div>
+                <div class="sub-title fw400 mb20 text-thm">Browse</div>
+                <h3 class="mb20">
+                  Browse In-Demand Properties in Thriving Markets
+                </h3>
+              </div>
+              <div>
+                <p>
+                  Discover premium real estate opportunities in top markets.
+                  Each investment option represents fractional ownership in
+                  high-value properties, carefully curated for maximum growth
+                  potential.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="img">
+              <img src="assets/front/images/browse.webp" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-item rounded-4">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="cont">
+              <div>
+                <div class="sub-title fw400 mb20 text-thm">Invest</div>
+                <h3 class="mb20">Start Your Investment Journey From AED 500</h3>
+              </div>
+              <div>
+                <p>
+                  Purchase shares in high-yield properties that align with your
+                  financial goals. Start building your diversified real estate
+                  portfolio with ease, starting from as little as AED 500.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="img">
+              <img src="assets/front/images/invest.webp" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-item rounded-4">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="cont">
+              <div>
+                <div class="sub-title fw400 mb20 text-thm">Earn</div>
+                <h3 class="mb20">Receive Rental Income from Your Property</h3>
+              </div>
+              <div>
+                <p>
+                  Enjoy consistent passive income through property rentals and
+                  benefit from asset appreciation over time. Your earnings are
+                  paid directly to your JustStake wallet.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="img">
+              <img src="assets/front/images/earn.webp" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-item rounded-4">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="cont">
+              <div>
+                <div class="sub-title fw400 mb20 text-thm">Sell</div>
+                <h3 class="mb20">Get Access To Liquidity When You Want</h3>
+              </div>
+              <div>
+                <p>
+                  When you're ready, sell your shares on our marketplace to
+                  unlock profits. Transfer ownership to other investors
+                  seamlessly, maximizing returns on your investments.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="img">
+              <img src="assets/front/images/sell.webp" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== End Portfolio ==================== -->
+
+<!-- Explore Apartment -->
+<section class="stakehelp">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 m-auto wow fadeInUp" data-wow-delay="300ms">
+        <div class="main-title text-center">
+          <h2 class="title">Discover what JustStake has to Offer</h2>
+          <div class="row justify-content-center mt50 mb50">
+            <div class="col-4 col-sm-6 col-lg-4 col-xl-2">
+              <div class="funfact_one text-center">
+                <div class="details">
+                  <ul class="ps-0 mb-0">
+                    <li class="text-thm"><div class="timer">400</div></li>
+                  </ul>
+                  <p class="text mb-0">Listing for sale</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 col-sm-6 col-lg-4 col-xl-2">
+              <div class="funfact_one text-center">
+                <div class="details">
+                  <ul class="ps-0 mb-0 d-flex justify-content-center">
+                    <li class="text-thm"><div class="timer">200</div></li>
+                    <li class="text-thm"><span>+</span></li>
+                  </ul>
+                  <p class="text mb-0">Property sold</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 col-sm-6 col-lg-4 col-xl-2">
+              <div class="funfact_one text-center">
+                <div class="details">
+                  <ul class="ps-0 mb-0 d-flex justify-content-center">
+                    <li class="text-thm"><div class="timer">1</div></li>
+                    <li class="text-thm"><span>K</span></li>
+                    <li class="text-thm"><span>+</span></li>
+                  </ul>
+                  <p class="text mb-0">Listing for Rent</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-lg-6 wow fadeInUp" data-wow-delay="300ms">
+        <div class="iconbox-style2 active text-center pb50">
+          <div class="icon">
+            <img src="assets/front/images/icon/property-sell.svg" alt="" />
+          </div>
+          <div class="iconbox-content">
+            <h4 class="title">Sell Your Property</h4>
+            <p class="text">
+              Make the most of your investments by selling your property for the
+              best market value.
+            </p>
+            <a [routerLink]="'/sell-with-juststake'" class="ud-btn btn-white"
+              >Learn More <i class="fal fa-arrow-right-long"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-6 wow fadeInRight" data-wow-delay="300ms">
+        <div class="iconbox-style2 text-center pb50">
+          <div class="icon">
+            <img src="assets/front/images/icon/property-rent.svg" alt="" />
+          </div>
+          <div class="iconbox-content">
+            <h4 class="title">Exit Windows</h4>
+            <p class="text">
+              Benefit from biannual exit windows to sell your property and
+              unlock profits when needed.
+            </p>
+            <a [routerLink]="'/exit-window'" class="ud-btn btn-white"
+              >Learn More <i class="fal fa-arrow-right-long"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Us -->
+<section class="aboutwrap pb100 pb40-md bgc-thm-light3">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-xl-5">
+        <div
+          class="about-box-1 pe-4 mt100 mt0-lg mb30-lg wow fadeInRight"
+          data-wow-delay="300ms"
+        >
+          <div class="mb20 text-center sub-title fw600 text-thm">
+            Rental Earnings
+          </div>
+          <h2 class="title mb20">
+            Earn passive income through real estate investments.
+          </h2>
+          <p class="text mb25 fz15">
+            With automated payouts and streamlined processes, you can
+            effortlessly earn rental income from your property without manual
+            intervention.
+          </p>
+          <div class="list-style1 mb50">
+            <ul>
+              <li>
+                <i class="far fa-check text-white bgc-thm fz15"></i>Automated
+                Payout System
+              </li>
+              <li>
+                <i class="far fa-check text-white bgc-thm fz15"></i>Effortless
+                management of your investments
+              </li>
+              <li>
+                <i class="far fa-check text-white bgc-thm fz15"></i>Steady
+                income from high-yield properties
+              </li>
+            </ul>
+          </div>
+          <a [routerLink]="'/login'" class="ud-btn btn-white"
+            >Invest Now <i class="fal fa-arrow-right-long"></i
+          ></a>
+        </div>
+      </div>
+      <div class="col-lg-6 col-xl-7">
+        <div
+          class="position-relative mb35 mb0-sm wow fadeInLeft text-center"
+          data-wow-delay="300ms"
+        >
+          <div class="img-box-1 list-inline-item me-0">
+            <img
+              class="img-1 w-100"
+              src="assets/front/images/rental-earnings.webp"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Us -->
+<section class="aboutwrap pb100 pb40-md">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-xl-7">
+        <div
+          class="position-relative mb35 mb0-sm wow fadeInLeft text-left"
+          data-wow-delay="300ms"
+        >
+          <div class="img-box-1 list-inline-item me-0">
+            <img
+              class="img-1 w-100"
+              src="assets/front/images/accessibilty.webp"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-xl-5">
+        <div
+          class="about-box-1 pe-4 mt100 mt0-lg mb30-lg wow fadeInRight"
+          data-wow-delay="300ms"
+        >
+          <div class="mb20 text-center sub-title fw600 text-thm">
+            Accessibility
+          </div>
+          <h2 class="title mb20">Gateway to Global Real Estate Markets</h2>
+          <p class="text mb25 fz15">
+            With JustStake's seamless platform and affordable fees, you can
+            invest in rapidly growing markets like Saudi Arabia, Dubai, and
+            beyond.
+          </p>
+          <div class="list-style1 mb50">
+            <ul>
+              <li>
+                <i class="far fa-check text-white bgc-thm fz15"></i>Long-term
+                property value appreciation
+              </li>
+              <li>
+                <i class="far fa-check text-white bgc-thm fz15"></i>Effortless
+                cross-border opportunities
+              </li>
+              <li>
+                <i class="far fa-check text-white bgc-thm fz15"></i>Low
+                transaction fees for smooth investing
+              </li>
+            </ul>
+          </div>
+          <a [routerLink]="'/login'" class="ud-btn btn-white"
+            >Invest Now <i class="fal fa-arrow-right-long"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Us -->
+<section class="aboutwrap pb100 pb40-md bgc-thm-light4">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-xl-5">
+        <div
+          class="about-box-1 pe-4 mt100 mt0-lg mb30-lg wow fadeInRight"
+          data-wow-delay="300ms"
+        >
+          <div class="mb20 text-center sub-title fw600 text-thm">Liquidity</div>
+          <h2 class="title mb20">Access Early Liquidity With Resale Options</h2>
+          <p class="text mb25 fz15">
+            Quickly sell or transfer your property shares on our platform,
+            offering complete flexibility to access capital before the
+            investment matures.
+          </p>
+          <div class="list-style1 mb50">
+            <ul>
+              <li>
+                <i class="far fa-check text-white bgc-thm fz15"></i>Exit Window
+                Flexibility
+              </li>
+              <li>
+                <i class="far fa-check text-white bgc-thm fz15"></i>Efficient
+                Capital Unlocking
+              </li>
+              <li>
+                <i class="far fa-check text-white bgc-thm fz15"></i>Portfolio
+                Adjustment Opportunities
+              </li>
+            </ul>
+          </div>
+          <a [routerLink]="'/login'" class="ud-btn btn-white"
+            >Invest Now <i class="fal fa-arrow-right-long"></i
+          ></a>
+        </div>
+      </div>
+      <div class="col-lg-6 col-xl-7">
+        <div
+          class="position-relative mb35 mb0-sm wow fadeInLeft text-center"
+          data-wow-delay="300ms"
+        >
+          <div class="img-box-1 list-inline-item me-0">
+            <img
+              class="img-1 w-100"
+              src="assets/front/images/liquidity.webp"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section class="pb100 pb30-md">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 wow fadeInUp" data-wow-delay="100ms">
+        <div class="main-title">
+          <h2 class="title">Hear What Our Investors Need To Say!</h2>
+          <p class="paragraph mt20">Trusted By Investors Worldwide.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <owl-carousel-o
+          *ngIf="testimonials.length"
+          [options]="testimonialsOptions"
+        >
+          <ng-container *ngFor="let testimonial of testimonials">
+            <ng-template carouselSlide>
+              <div class="item">
+                <div class="testimonial-style1 position-relative bdr1">
+                  <div class="testimonial-content">
+                    <span class="icon fas fa-quote-left"></span>
+                    <p class="text">
+                      {{ testimonial.text }}
+                    </p>
+                    <div class="testimonial-review">
+                      <a class="me-1" href=""><i class="fas fa-star"></i></a>
+                      <a class="me-1" href=""><i class="fas fa-star"></i></a>
+                      <a class="me-1" href=""><i class="fas fa-star"></i></a>
+                      <a class="me-1" href=""><i class="fas fa-star"></i></a>
+                      <a href=""><i class="fas fa-star"></i></a>
+                    </div>
+                  </div>
+                  <div class="thumb d-flex align-items-center">
+                    <div class="flex-grow-1">
+                      <h6 class="mb-0">{{ testimonial.name }}</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </ng-template>
+          </ng-container>
+        </owl-carousel-o>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Explore Apartment -->
+<section class="pb100 bgc-thm-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-xl-5 wow fadeInRight" data-wow-delay="00ms">
+        <div class="main-title mb40">
+          <h2 class="title">Got Any Queries?</h2>
+          <div class="h3 mt10 mb20 fw400">Let Us Help!</div>
+          <p class="paragraph fz15">
+            Fill out the details below, and our team will reach out to assist
+            you promptly.
+          </p>
+        </div>
+        <div class="inquiry-form mb30-md">
+          <form class="form-style1">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="mb20">
+                  <label class="form-label fw600 dark-color">Full Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Your Name"
+                  />
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="mb20">
+                  <label class="form-label fw600 dark-color">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="hello@gmail.com"
+                  />
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="mb20">
+                  <label class="form-label fw600 dark-color"
+                    >Property Type</label
+                  >
+                  <div class="bootselect-multiselect">
+                    <select class="selectpicker" multiple>
+                      <option>Apartments</option>
+                      <option>Bungalow</option>
+                      <option>Houses</option>
+                      <option>Loft</option>
+                      <option>Office</option>
+                      <option>TownHome</option>
+                      <option>Villa</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="mb20">
+                  <label class="form-label fw600 dark-color">Max Price</label>
+                  <input type="text" class="form-control" placeholder="$90" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="mb30">
+                  <label class="form-label fw600 dark-color"
+                    >Min Size (Sq ft)</label
+                  >
+                  <input type="text" class="form-control" placeholder="20" />
+                </div>
+              </div>
+              <div class="d-grid">
+                <button class="ud-btn btn-thm">
+                  Submit <i class="fal fa-arrow-right-long"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div
+        class="col-lg-6 col-xl-6 offset-xl-1 wow fadeInLeft d-none d-lg-block"
+        data-wow-delay="300ms"
+      >
+        <div class="inquiry-form">
+          <div class="inquiry-img">
+            <img class="w-100" src="assets/front/images/query.webp" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,13 @@
+body {
+  background: #30314f;
+}
+header.nav-homepage-style {
+  position: relative;
+  animation: none !important;
+}
+.ace-responsive-menu {
+  display: none;
+}
+.background-video {
+  opacity: 0.2;
+}

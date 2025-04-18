@@ -1,0 +1,160 @@
+<div class="preloader"></div>
+<!-- Main Header Nav -->
+<header class="header-nav nav-homepage-style at-home3 stricky main-menu">
+  <!-- Ace Responsive Menu -->
+  <nav class="posr">
+    <div class="container posr menu_bdrt1">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-auto">
+          <div class="d-flex align-items-center justify-content-between">
+            <div class="logos mr40 mr10-lg">
+              <a class="header-logo logo2" [routerLink]="'/'"
+                ><img
+                  src="assets/front/images/header-logo3.svg"
+                  alt="Header Logo"
+              /></a>
+              <a class="header-logo logo1" [routerLink]="'/'"
+                ><img
+                  src="assets/front/images/header-logo3.svg"
+                  alt="Header Logo"
+              /></a>
+            </div>
+            <!-- Responsive Menu Structure-->
+            <ul
+              id="respMenu"
+              class="ace-responsive-menu"
+              data-menu-style="horizontal"
+            >
+              <li>
+                <a class="list-item" [routerLink]="'/'"
+                  ><span class="title">Properties</span></a
+                >
+              </li>
+              <li>
+                <a class="list-item" [routerLink]="'/about'"
+                  ><span class="title">About Us</span></a
+                >
+              </li>
+              <li>
+                <a class="list-item" [routerLink]="'/'"
+                  ><span class="title">Sell</span></a
+                >
+                <ul>
+                  <li>
+                    <a [routerLink]="'/sell-with-juststake'"
+                      >Sell Your Property</a
+                    >
+                  </li>
+                  <li><a [routerLink]="'/exit-window'">Exit Windows</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <a class="list-item" [routerLink]="'/'"
+                  ><span class="title">Help & Support</span></a
+                >
+                <ul>
+                  <li><a [routerLink]="'/faq'">FAQs</a></li>
+                  <li><a [routerLink]="'/contact'">Contact Us</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-auto">
+          <div class="d-flex align-items-center">
+            <a
+              class="ud-btn btn-white add-property bdrs12 mx-1"
+              [routerLink]="'/login'"
+              role="button"
+              ><i class="far fa-user fz16"></i> Log in</a
+            >
+            <a
+              class="ud-btn btn-white add-property bdrs12 mx-1"
+              [routerLink]="'/register'"
+              ><i class="far fa-user-plus"></i> Sign up</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Mobile Nav  -->
+<div id="page" class="mobilie_header_nav stylehome1">
+  <div class="mobile-menu">
+    <div class="header innerpage-style">
+      <div class="menu_and_widgets">
+        <div
+          class="mobile_menu_bar d-flex justify-content-between align-items-center"
+        >
+          <!-- href="#menu" -->
+          <a class="menubar"
+            ><img src="assets/front/images/mobile-dark-nav-icon.svg" alt=""
+          /></a>
+          <a class="mobile_logo" [routerLink]="'/'"
+            ><img src="assets/front/images/header-logo3.svg" alt=""
+          /></a>
+          <a [routerLink]="'/login'"
+            ><span class="icon fz18 far fa-user-circle"></span
+          ></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.mobile-menu -->
+  <nav id="menu" class="">
+    <div class="mob-nav-container">
+      <div class="mob-nav-head">
+        <span>Menu</span>
+      </div>
+      <ul>
+        <li>
+          <a [routerLink]="'/register'">Properties</a>
+        </li>
+        <li><a [routerLink]="'/about'">About Us</a></li>
+        <!-- <li> -->
+        <!-- <span>Sell</span> -->
+        <!-- <ul> -->
+        <li>
+          <a [routerLink]="'/sell-with-juststake'">Sell Your Property</a>
+        </li>
+        <li>
+          <a [routerLink]="'/exit-window'">Exit Windows</a>
+        </li>
+        <!-- </ul>
+      </li> -->
+        <!-- <li>
+        <span>Help & Support</span>
+        <ul> -->
+        <li><a [routerLink]="'/faq'">FAQs</a></li>
+        <li>
+          <a [routerLink]="'/contact'">Contact Us</a>
+        </li>
+        <!-- </ul>
+      </li> -->
+        <li class="px-3 mobile-menu-btn">
+          <!-- <a [routerLink]="'/register'" class="ud-btn btn-thm text-white"
+            >Get Started <i class="fal fa-arrow-right-long"></i
+          ></a> -->
+          <div class="mob-menu-btns">
+            <a
+              class="ud-btn btn-thm add-property bdrs12 mx-1"
+              [routerLink]="'/login'"
+              role="button"
+              ><i class="far fa-user fz16"></i> Log in</a
+            >
+            <a
+              class="ud-btn btn-white add-property bdrs12 mx-1"
+              [routerLink]="'/register'"
+              ><i class="far fa-user-plus"></i> Sign up</a
+            >
+          </div>
+        </li>
+        <!-- Only for Mobile View -->
+      </ul>
+    </div>
+  </nav>
+</div>
+<!-- /Header 5 -->
